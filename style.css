@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width:500px;
+    height: 20px;
+}
+input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+}
